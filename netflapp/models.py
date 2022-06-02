@@ -6,12 +6,12 @@ from django.contrib.auth.models import AbstractUser
 import uuid
 
 AGE_CHOICES = ( 
-               ('All', 'All')
+               ('All', 'All'),
                ('Kids', 'Kids')
  )
 
 MOVIE_CHOICES = (
-    ('seasonal', 'Seasonal')
+    ('seasonal', 'Seasonal'),
     ('single', 'Single')
 )
 
