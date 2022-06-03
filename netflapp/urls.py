@@ -1,9 +1,10 @@
-from profile import Profile
 from django.urls import path
-from .views import Home, Profilelist
+from . import views
+from.views import Home
 
-urlpatterns=[
-    path('', Home.as_view()),
-    path('profile/', Profile.as_view(), name='profile_list')
+
+app_name = 'netflapp'
+
+urlpatterns = [
+    path('', Home.as_view())
 ]
-
