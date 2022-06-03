@@ -18,5 +18,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('netflapp.urls', namespace='netflapp'))
+    path('accounts/', include('allauth.urls')),
 ]
